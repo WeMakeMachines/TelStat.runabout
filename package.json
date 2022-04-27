@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "tsc && node ./build/index.js",
+    "dev": "export DEBUG=app.runabout*,mqttjs* && ts-node ./source/"
+  },
+  "dependencies": {
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.0",
+    "mongoose": "^6.3.1",
+    "mqtt": "^4.3.7"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.7"
+  }
+}
